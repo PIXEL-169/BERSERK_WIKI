@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #0D0D0D;
+    min-height: 95vh;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu {
+    background-color: #4A0E0E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+.top-menu ul {
+    margin: 0px 10px;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+    list-style-type: none;
+    font-size: 25px;
+    width: 100%;
+    gap: 10px;
+}
+
+.top-menu li {
+    display: block;
+    color: #ECECEC;
+    background-color: #8C1111   ;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 15px; 
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 1px transparent;
+    height: fit-content;
+}
+
+.top-menu li a {
+    text-decoration: none;
+    color: #ECECEC;
+}
+
+.top-menu li:hover {
+    background-color: #8C1111;
+    transform: scale(1.05);
+}
+
+.top-menu img {
+    width: auto;
+    height: 60px;
+    padding: 3px 10px;
+}
+
+.center {
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    padding-left: 25px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.center h1 {
+    position: relative;
+    font-size: 80px;
+    color: #ECECEC;
+    font-family: "Cinzel", serif;
+    font-style:oblique;
+    margin: 20px 0 10px;
+    
+}
+
+.center #nah {
+    position: relative;
+    font-size: 25px;
+    color: #8C1111;
+    max-width: 50%;
+    margin: 0 0 30px;
+}
+
+.card-layout {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    border: solid 2px #ECECEC;
+    border-radius: 20px;
+    margin: 0px 25px;
+    padding: 0px;
+    background-color: #1A1A1A;
+}
+
+
+.figure {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ECECEC;
+    width: auto;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+    padding: 0px 10px;
+}
+
+.figure h2 {
+    color: #0D0D0D;
+    font-family: "Cinzel", serif;
+    font-style:oblique;
+    font-size: 60px;
+}
+
+.figure img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 5px #0D0D0D;
+}
+
+.card #bio {
+    font-size: 20px;
+    color: #ECECEC;
+    padding: 0 10px;
+}
+
+.footer {
+    margin-top: 80px;
+}
+
+.player {
+    width: 350px;
+    border: solid 2px #8C1111;
+    border-radius: 50px;
+    color-scheme: dark;
+}
